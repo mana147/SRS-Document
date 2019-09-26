@@ -1,0 +1,43 @@
+//-----------------------------------------------------------------
+Table of Con
+//-----------------------------------------------------------------
+
+ - list các yêu cầu :
+	- cần thêm người có king nghiêm
+	- chứa các chức năng của mạch 
+	
+ - phân tích yêu cầu  : sử dụng UML phân tích đối tượng 
+	- dise về mặt hệ thống  
+	- phần tích luồng code 
+	- solustion 
+	
+	
+//-----------------------------------------------------------------
+
+Tài liệu đặc tả yêu cầu (SRS document).
+
+SRS document là những yêu cầu chính thức về những gì cần phải thực hiện của đội phát triển phần mềm. 
+SRS document nên bao gồm tất cả các định nghĩa về yêu cầu của người sử dụng và đặc tả yêu cầu của hệ thống. 
+SRS document không phải là tài liệu thiết kế hệ thống. 
+Nó chỉ thiết lập những gì hệ thống phải làm chứ không phải việc mô tả rõ nó sẽ làm việc như thế nào?
+
+//-----------------------------------------------------------------
+software requirement specification (những yêu cầu chi tiết)
+
+ - esp8266 FW requirements : esp8266 firmware đặc tả yêu cầu .
+ 
+	- chia nhóm trức năng  :
+	
+		- chức năng : connection
+				- support user name and pass , connection vào mạng LAN , điều kiên pass: lấy đc add ip LAN cấp phát cho esp8266 .
+				- support scan wifi , ĐK : lấy đc list wifi
+				- support connect internet . Đk: ping đến server thì nhận đc 1 pong 
+				- support connect http / https . ĐK : GET CODE 200 .
+				- support connect TLS/SSL webserver . ĐK : GET CODE 200 .
+				- support download https . ĐK : GET CODE 200 .
+				
+		- chức năng  : support UART < follow ITC file>
+				- support Diagnostic service :  + Get Data identifier <sheet detail DID>
+												+ Support Security access <sheet Security>
+												
+												

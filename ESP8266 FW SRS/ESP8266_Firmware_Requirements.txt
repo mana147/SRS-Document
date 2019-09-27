@@ -63,11 +63,16 @@ SRS document không phải là tài liệu thiết kế hệ thống.
 Nó chỉ thiết lập những gì hệ thống phải làm chứ không phải việc mô tả rõ nó sẽ làm việc như thế nào?
 
 //-----------------------------------------------------------------
-software requirement specification (những yêu cầu chi tiết)
 
- - esp8266 FW requirements : esp8266 firmware đặc tả yêu cầu .
+document doxygen ...
+
+//-----------------------------------------------------------------
+
+document software requirement specification  
+
+ - esp8266 FirmWare Requirements : esp8266 firmware đặc tả yêu cầu .
  
-	- chia nhóm trức năng  :
+	- chia nhóm trức năng  : 
 	
 		- chức năng : connection
 				- support user name and pass , connection vào mạng LAN , điều kiên pass: lấy đc add ip LAN cấp phát cho esp8266 .
